@@ -160,6 +160,10 @@ header+nav {
     width: 100%;
 }
 
+main {
+    background-color: burlywood;
+}
+
 /* aside */
 main aside {
     border: 1px solid gray;
@@ -262,7 +266,12 @@ footer li+li:before {
 /* Media queries
   /* ============== */
 
-@media (min-width: 30em) {
+@media (min-width: 500px) {
+    /*  als op zijn minstens 500px zijn, dan wordt dit uitgevoerd*/
+    main {
+        background-color: ghostwhite;
+    }
+
     main aside {
         float: right;
         margin-left: 1rem;
@@ -276,10 +285,12 @@ footer li+li:before {
     }
 }
 
-@media (min-width: 37.5em) {
+@media (min-width: 600px) {
+    /*     indien meer dan 600px*/
     main {
         display: flex;
         flex-flow: row nowrap;
+        background-color: navajowhite;
     }
 
     #leftmenu {
