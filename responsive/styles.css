@@ -285,6 +285,10 @@ footer li+li:before {
     }
 }
 
+.klasNaam {
+
+}
+
 @media (min-width: 600px) {
     /*     indien meer dan 600px*/
     main {
@@ -293,11 +297,15 @@ footer li+li:before {
         background-color: navajowhite;
     }
 
-    #leftmenu {
+    #leftmenu { // sdf
         width: 21%;
     }
 
     #content {
         width: 79%;
     }
+}
+
+ul .mooi {
+    color: blue
 }
